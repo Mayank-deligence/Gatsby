@@ -8,7 +8,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: `http://localhost/testing/graphql`,
+        url: `https://proctologic-compactly-elyse.ngrok-free.dev/testing/graphql`,
         schema: {
           timeout: 60000, // 60s
           perPage: 20,    // fetch data in smaller chunks
